@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgb(10, 63, 69);
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-weight: bolder;
+    font-size: 160%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+header img{
+    width: 13%;
+    height: 15%;
+}
+
+nav{
+    background-color: rgb(59, 208, 241);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li > a{
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    color:rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: large;
+}
+
+nav li > a:hover{
+    color:rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(10, 63, 69);
+    cursor: pointer;
+}
+
+main.cards {
+    display: flex;
+    padding: 32px;
+
+}
+
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(59, 208, 241);
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    max-height: 256px;
+    margin-left: 36px;
+    box-shadow: 16px 16px rgb(25, 122, 120);  
+    width: 164px;
+    height: 164px;
+}
+
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+
+main.cards section.card span{
+    font-weight: 300;
+    font-size: 100%;
+}
+
+img{
+    width: 200px;
+}
+
+.container{
+    margin: auto;
+    margin-bottom: 16px;
+    width: 75%;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(10, 63, 69);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin: 8px;
+}
+
+footer img{
+    height: 30%;
+    width: 10%;
+}
+    .container .card{
+        position: relative;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .container .card .imgBx{
+        width: 150px;
+        flex: 0 0 150px;
+    }
+    .container .card .imgBx img{
+        max-width: 150%;
+        margin-left: 660px;
+    
+        
+    }
+    .container .card .textos{
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+    }
